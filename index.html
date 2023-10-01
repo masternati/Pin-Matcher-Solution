@@ -43,7 +43,7 @@
                 <button id="" class="text-2xl bg-gray-400 m-1 h-14 w-14 inline-flex justify-center items-center rounded-md">1</button>
                 <button id="" class="text-2xl bg-gray-400 m-1 h-14 w-14 inline-flex justify-center items-center rounded-md">C</button>
             </div>
-            <button type="submit" class="text-lg font-medium text-white bg-indigo-800 px-20 py-1 mt-2 ml-28 mb-2">Submit</button>
+            <button id="verify-pin" type="submit" class="text-lg font-medium text-white bg-indigo-800 px-20 py-1 mt-2 ml-28 mb-2">Submit</button>
     
             <p class="text-red-500 text-center font-medium mb-3">3 try left</p>
             
@@ -52,8 +52,8 @@
     </section>
 
     <div class="flex-col flex items-center mt-4 text-white">
-        <p class="text-center bg-gray-700 w-96 h-10 mb-2 inline-flex items-center justify-center"> &#10060; Pin didn't match, Please try again</p>
-        <p class="text-center bg-gray-700 w-96 h-10 mb-2 inline-flex items-center justify-center">&#9989; Pin matched...Secret door is open for you.</p>
+        <p id="pin-failure" class="text-center bg-gray-700 w-96 h-10 mb-2 inline-flex items-center justify-center"> &#10060; Pin didn't match, Please try again</p>
+        <p id="pin-success" class="text-center bg-gray-700 w-96 h-10 mb-2 inline-flex items-center justify-center">&#9989; Pin matched...Secret door is open for you.</p>
     </div>
 
     <script src="JS/script.js"></script>
